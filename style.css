@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+.sst-logo{
+    margin-left: 70px;
+    margin-top: 10px;
+}
+.scaler-social{
+    margin-right: 70px;
+    margin-top: 10px;
+}
+
+.main-cont{
+    display: flex;
+    height: 100vh;
+    overflow: auto;
+}
+.create{
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+    background-color: #ECF8FF;
+    align-items: center;
+    justify-content: center;
+}
+.create-new{
+    display: flex;
+    flex-direction:column;
+    height: 15rem;
+    width: 30rem;
+    background-color: white;
+    gap: 100px;
+    border: 0.5px solid black;
+}
+.input-tweet{
+    display: flex;
+    flex-direction:row;
+}
+.input-bottom{
+    display: flex;
+    justify-content: space-between;
+    border-top: 0.01px solid black;
+}
+.post-btn{
+    border-radius:20px;
+    height: 2rem;
+    width: 5rem;
+    border:0;
+    background-color: blue;
+    color: white;
+}
+.input{
+    border: none;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    height:5rem;
+}
+
+
+.posted-tweets{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.existing-tweet{
+    border: 0.1px solid black;
+    height: 35vh;
+    width: 30vw;
+    margin-left:5rem;
+}
+.tweet-person{
+    display: flex;
+    flex-direction: row;
+}
+.tweet-bottom{
+    display: flex;
+    justify-content: space-around;
+}
+
+.written-text{
+    margin-left:4rem ;
+}
+
